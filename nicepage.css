@@ -38756,10 +38756,11 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
  .u-header {
   background-image: none;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
 }
 
 .u-header .u-sheet-1 {
-  min-height: 72px;
+  min-height: 80px;
 }
 
 .u-header .u-menu-1 {
@@ -38773,7 +38774,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-1 {
   width: 0;
   height: 0;
-  margin: -32px auto 20px 0;
+  margin: -32px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -38781,18 +38782,34 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
+.u-header .u-image-2 {
+  width: 70px;
+  height: 70px;
+  margin: -10px auto 1px 0;
+}
+
+.u-header .u-logo-image-2 {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 1199px) {
+  .u-header .u-image-2 {
+    width: 70px;
+    height: 70px;
+  }
+}
 
 
 
 .u-footer .u-sheet-1 {
-  min-height: 133px;
+  min-height: 121px;
 }
 
 .u-footer .u-group-1 {
   min-height: 63px;
   height: auto;
   width: 570px;
-  margin: 35px auto;
+  margin: 35px auto 0;
 }
 
 .u-footer .u-container-layout-1 {
@@ -38803,6 +38820,17 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-text-1 {
   margin: 5px 0;
 }
+
+.u-footer .u-image-1 {
+  width: 83px;
+  height: 83px;
+  margin: -75px auto 16px 21px;
+}
+
+.u-footer .u-logo-image-1 {
+  width: 100%;
+  height: 100%;
+}
 @media (max-width: 1199px) {
   .u-footer .u-group-1 {
     width: 470px;
@@ -38812,6 +38840,10 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-container-layout-1 {
     padding-left: 49px;
     padding-right: 49px;
+  }
+
+  .u-footer .u-image-1 {
+    margin-top: -75px;
   }
 }
 @media (max-width: 991px) {
@@ -38833,15 +38865,30 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-left: 28px;
     padding-right: 28px;
   }
+
+  .u-footer .u-image-1 {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 575px) {
+  .u-footer .u-sheet-1 {
+    min-height: 178px;
+  }
+
   .u-footer .u-group-1 {
     width: 283px;
+    margin-top: 115px;
   }
 
   .u-footer .u-container-layout-1 {
     padding-left: 18px;
     padding-right: 18px;
+  }
+
+  .u-footer .u-image-1 {
+    margin-top: -146px;
+    margin-left: auto;
+    margin-bottom: 60px;
   }
 }
 
